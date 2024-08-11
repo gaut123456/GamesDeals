@@ -1,0 +1,1 @@
+import{_ as t}from"./q-DO5ljFCo.js";import{b as e,q as a}from"./q-BhEKFq9l.js";const r=e(a(()=>t(()=>import("./q-gdPtss6u.js"),[]),"s_tYHzfGxigvQ")),s={title:"Game Deals List",meta:[{name:"description",content:"List of active game deals from the CheapShark API"}]};export{r as default,s as head};

@@ -1,0 +1,1 @@
+import{_ as e}from"./q-DO5ljFCo.js";import{b as o,q as r}from"./q-BhEKFq9l.js";const i=o(r(()=>e(()=>import("./q-CCOy64h0.js").then(t=>t.b),[]),"s_B0lqk5IDDy4")),m={title:"Game Stores List",meta:[{name:"description",content:"List of active game stores from CheapShark API"}]};export{i as default,m as head};
