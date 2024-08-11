@@ -1,0 +1,127 @@
+/* Container and grid layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Card styles */
+  .deal-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .deal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .deal-thumbnail img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .deal-title {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .deal-price p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .deal-price span {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+  .deal-rating {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  /* Loading and error states */
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+  }
+  
+  .spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 10px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Sort options */
+
+  /* Sort controls container */
+.sort-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  /* Sort select box */
+  .sort-controls select {
+    padding: 5px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  /* Sort button */
+  .sort-controls button {
+    padding: 5px 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .sort-controls button:hover {
+    background-color: #2980b9;
+  }
+
+  .sort-controls button {
+    z-index: 1;
+  }
+  
